@@ -20,19 +20,18 @@ const Footer = () => {
                 <div className="footer-content-center">
                     <h2>COMPANY</h2>
                     <ul>
-                        <li>home</li>
-                        <li>about us</li>
-                        <li>delivery</li>
-                        <li>privacy policy</li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/delivery">Delivery</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
                     </ul>
-
                 </div>
                 <div className="footer-content-right">
-<h2>Get In Touch</h2>
-<ul>
-    <li>+251-746-873</li>
-    <li>contact@tomato.com</li>
-</ul>
+                    <h2>Get In Touch</h2>
+                    <ul>
+                        <li><a href="tel:+251746873">+251-746-873</a></li>
+                        <li><a href="mailto:contact@tomato.com">contact@tomato.com</a></li>
+                    </ul>
                 </div>
             </div>
             <hr />

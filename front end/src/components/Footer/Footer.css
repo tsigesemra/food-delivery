@@ -26,9 +26,21 @@
 
 .footer-content-left li, .footer-content-center li,
  .footer-content-right li{
-list-style: none;
-margin-bottom: 10px;
-cursor: pointer;
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-content-left li a, .footer-content-center li a,
+ .footer-content-right li a {
+    color: #d9d9d9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content-left li a:hover, .footer-content-center li a:hover,
+ .footer-content-right li a:hover {
+    color: white;
 }
 
 .footer-content-leftv h2, .footer-content-center h2,
@@ -47,4 +59,16 @@ cursor: pointer;
     margin: 20px 0;
     background-color: gray;
     border: none;
+ }
+
+
+ @media (max-width: 750px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
  }
