@@ -27,7 +27,7 @@
 }
 
 .navbar-menu a:hover, .navbar-menu Link:hover {
-    color: tomato;
+    color:#FFBF00;
 }
 
 .navbar-menu .active{
@@ -43,7 +43,7 @@
 
 .navbar button{
     background: transparent;
-    border: 1px solid tomato;
+    border: 1px solid #FFBF00;
     padding: 10px 30px;
     border-radius: 50px;
     color: #49557e;
@@ -64,10 +64,30 @@
     position: absolute;
 min-height: 10px;
 min-width: 10px;
-background-color: tomato;
+background-color: #FFBF00;
 border-radius: 5px;
 top: -8px;
 right: -8px;
+}
+
+.navbar-menu li a.active {
+  color: #FFBF00;
+  border-bottom: 2px solid #FFBF00;
+}
+
+.navbar-right button {
+  background: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid #FFBF00;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar-right button:hover {
+  background-color: #FFBF00;
 }
 
 @media (max-width: 1050px) {

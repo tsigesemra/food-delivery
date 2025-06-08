@@ -24,7 +24,7 @@
     padding: 10px;
     border: 1px solid #c5c5c5;
     border-radius: 4px;
-    outline-color: tomato;
+    outline-color: #FFBF00;
   }
   
   .place-order-left .multi-fields{
@@ -67,13 +67,60 @@
   .cart-total button {
     border: none;
     color: white;
-    background-color: tomato;
+    background-color: #FFBF00;
     width: 100%;
     padding: 10px 0px;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 15px;
     font-size: 0.9rem;
+  }
+
+  .qr-scan-section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+
+  .qr-scan-section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  .location-confirmed {
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .location-confirmed p {
+    color: #2e7d32;
+    font-weight: 500;
+  }
+
+  .QR {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+    font-size: 16px;
+    position: relative;
+    padding: 10px 0;
+  }
+
+  .QR hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+  }
+
+  .QR br {
+    margin: 10px 0;
+    display: block;
+    content: "";
   }
 
   /* Media Queries */

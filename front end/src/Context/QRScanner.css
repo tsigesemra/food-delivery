@@ -1,0 +1,97 @@
+.qr-scanner-container {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.qr-reader-placeholder {
+  width: 100%;
+  height: 200px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+
+.camera-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.scan-button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #FFBF00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.scan-button:hover {
+  background-color: #e6ac00;
+}
+
+.qr-reader {
+  width: 100% !important;
+  height: 300px !important;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scanner-instruction {
+  text-align: center;
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.scanner-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.scanner-error {
+  text-align: center;
+  color: #d32f2f;
+  padding: 20px;
+  background: #ffebee;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.scanner-error p {
+  margin: 5px 0;
+}
+
+/* Override html5-qrcode styles */
+#qr-reader {
+  border: none !important;
+  padding: 0 !important;
+}
+
+#qr-reader__scan_region {
+  background: #fff !important;
+}
+
+#qr-reader__scan_region video {
+  border-radius: 8px;
+} 

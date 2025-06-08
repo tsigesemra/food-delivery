@@ -34,7 +34,7 @@
 }
 
 .cart-items-item p:last-child {
-  color: #ff4d4d;
+  color: #FFBF00;
   cursor: pointer;
 }
 
@@ -85,7 +85,7 @@
 .cart-total button {
   border: none;
   color: white;
-  background-color: tomato;
+  background-color: #FFBF00;
   width: 100%;
   padding: 12px 0px;
   border-radius: 4px;
