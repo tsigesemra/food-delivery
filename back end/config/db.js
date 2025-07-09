@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 export const connectDB = async () => {
-    await mongoose.connect('mongodb+srv://solara:solara12345678@cluster0.9h9ptwu.mongodb.net/FOOD-DELIVERY')
+    await mongoose.connect('mongodb+srv://rebuni1995:NOFzGAwVk6RapIbZ@cluster-1.hidovfn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-1')
     .then(() => console.log('db connected'))
 }
+
